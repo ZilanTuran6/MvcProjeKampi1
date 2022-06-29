@@ -29,7 +29,7 @@ namespace MvcProjeKampi.Controllers
 
         public ActionResult Test()
         {
-            return View();
+            return View(); 
         }
     }
 }
