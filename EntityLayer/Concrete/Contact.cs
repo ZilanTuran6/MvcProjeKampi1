@@ -15,8 +15,8 @@ namespace EntityLayer.Concrete
         [StringLength(50)]
         public string UserName { get; set; }
 
-        [StringLength(50)]
-        public string Surname { get; set; }
+        [StringLength(200)]
+        public string UserMail { get; set; }
 
         [StringLength(50)]
         public string Subject{ get; set; }
